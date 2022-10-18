@@ -3,7 +3,67 @@ body{
 b{
     font-size: 13px;
 }
+.nav-link{
+    color: black !important;
+}
 .col > li > a{
     font-size:12px;
     /* max-width: 171px; */
 }
+.main{
+    height: 40px;
+    padding-right: 100px !important;
+    padding: 10px;
+    display: block !important;
+}
+.toggle button {
+    position: relative;
+    margin-left: 15px;
+    width: 44px;
+    height: 20px;
+    background: 0 0;
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin-bottom: -5px;
+}
+.toggle button[aria-checked=true]:after {
+    left: 28px;
+    background: #FFF;
+}
+.toggle button:after {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    transition: all .1s ease;
+    background: #000;
+    content: "";
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+}
+div.toggle button[aria-checked=true] {
+    background: #0067B8;
+    border-color: #0067B8;
+}
+.animated-hero-main-content {
+    left: 5%;
+    position: absolute;
+    right: 5%;
+    top: 48%;
+    max-width: 35%;
+    transform: translateY(-52%);
+}
+.c-heading-2{
+    padding: 37px 0 3px;
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 100px;
+}
+.c-paragraph-2 p {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+/*  */
