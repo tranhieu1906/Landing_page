@@ -1,0 +1,9 @@
+body{
+}
+b{
+    font-size: 13px;
+}
+.col > li > a{
+    font-size:12px;
+    /* max-width: 171px; */
+}
