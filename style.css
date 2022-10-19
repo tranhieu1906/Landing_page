@@ -5,6 +5,10 @@ b{
 }
 .nav-link{
     color: black !important;
+    
+}
+.nav-link , a{
+    text-decoration: none !important;
 }
 .col > li > a{
     font-size:12px;
@@ -63,7 +67,105 @@ div.toggle button[aria-checked=true] {
     font-size: 26px;
     font-weight: 600;
     line-height: 36px;
-    padding-top: 10px;
+    padding-top: 170px;
     padding-bottom: 16px;
 }
-/*  */
+.create .container{
+    padding-bottom: 40px;
+    padding-top: 88px;
+}
+.mscom-link{
+    padding: 10px 10px 7px 0;
+    text-transform: inherit !important;
+    width: 100%;
+    
+}
+.home-windows-11-banner{
+    padding:72px 48px 72px 48px;
+}
+.Home-Windows11-Panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.new-sp4-banner.m-banner .newsp4bannertext {
+    text-align: left;
+}
+.surface-family-devices{
+    padding:0 72px 0 72px;
+}
+.surface-family-devices h3 {
+    padding: 37px 10px 3px 0;
+}
+.surface-family-devices a {
+    font-size: 20px;
+}
+ul ,ol{
+    list-style-type: none;
+}
+.surface-family-devices-img img{
+    object-fit: fill;
+    width:613px;
+    padding-bottom: 34px;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+.tile-cta{
+    padding: 10px 2px 7px 0;
+    text-align: left;
+}
+.animated-hero-sub-content {
+    left: 5%;
+    position: absolute;
+    right: 5%;
+    top: 21%;
+    max-width: 50%;
+    transform: translateY(-52%);
+}
+.c-heading-text{
+    font-weight: 600;
+    font-size: 71px;
+    line-height: 84px;
+}
+.bgtext-main {
+    font-weight: 600;
+    font-size: 400px;
+    line-height: 520px;
+    margin-top: -173px;
+    /* right: 0; */
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    white-space: nowrap;
+    /* left: 0; */
+    z-index: 1;
+}
+.second{
+    z-index: 2;
+    margin-top: -367px;
+}
+.text-second {
+    padding: 0px 0px 0 100px;
+}
+.img-cont-content{
+    width: 44.6%;
+    float:right;
+}
+.shop-now{
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    min-width: auto;
+    color: #fff;
+    background: #0067b8;
+    padding: 10px 10px 6px 10px;
+}
+.surface-section-footnotes {
+    background-color: #2F2F2F;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
