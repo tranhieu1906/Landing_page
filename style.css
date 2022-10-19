@@ -3,16 +3,21 @@ body{
 b{
     font-size: 13px;
 }
-.nav-link{
+.nav-link , li a{
     color: black !important;
     
 }
 .nav-link , a{
     text-decoration: none !important;
+    color: #616161;
 }
 .col > li > a{
     font-size:12px;
     /* max-width: 171px; */
+}
+a:hover{
+    color: rgba(0,0,0,.9) !important;
+    text-decoration: underline !important;
 }
 .main{
     height: 40px;
@@ -168,4 +173,26 @@ ul ,ol{
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.icon{
+    padding: 12px;
+    font-size: 30px;
+}
+.footer{
+    background-color:#f2f2f2 ;
+    /* height: 500px; */
+}
+.c-list{
+    padding-left: 0;
+    text-align: start;
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: 0;
+}
+.c-list li{
+    padding: 8px 0;
+}
+.col-text{
+    text-align: start;
+    padding: 36px 0 4px;
 }
